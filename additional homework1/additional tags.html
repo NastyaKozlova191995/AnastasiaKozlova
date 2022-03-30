@@ -25,11 +25,14 @@
 &lt;dd&gt;Белый холодный напиток &lt;/dd&gt; <br>
 &lt;/dl&gt;<br>
 </div>
+<p align="center"> <strong> Результат </strong></p>
 <dl>
+  <div style="background: #e6370b; border-left: 3px solid #010101;">
   <dt>Кофе</dt>
   <dd>Черный горячий напиток</dd>
   <dt>Молоко</dt>
   <dd>Белый холодный напиток</dd>
+</div>
 </dl>
 <hr>
 <h2 align="center"> Тег &lt;pre&gt; </h2>
@@ -84,9 +87,11 @@
 &lt;p&gt;Продолжение обычного текста.&lt;/p&gt; <br>
 </div>
 <p align="center"> <strong> Результат </strong></p>
+<div style="background: #f34f26; border-left: 3px solid #010101;">
 <p>Обычный текст.</p>
 <code>Строка кода программы.</code>
 <p>Продолжение обычного текста.</p>
+</div>
 <hr>
 <h2 align="center"> Тег &lt;tt&gt; </h2>
 <p> 
@@ -106,5 +111,82 @@
 </div>
 <hr>
 <h2 align="center"> Тег &lt;kbd&gt; </h2>
-   </body>
+<p> Тег &lt;kbd&gt; определяет название клавиш или набираемый на клавиатуре текст.<br> 
+  Содержимое тега в браузере отображается моноширинным шрифтом (все знаки имеют одинаковую ширину).</p>
+  <h4> Синтаксис </h4>
+<p> 
+  Тег &lt;kbd&gt; парный, закрывающий тег (&lt;/kbd&gt;) обязателен.
+</p>
+<h4 align="center"> Внимание! </h4>
+<div style="background: #7170d1; border-left: 3px solid #010101;"> 
+<p> Тег &lt;kbd&gt; еще не устарел, 
+  но с помощью CSS свойств font-family или border можно добиться более богатых эффектов. </p>
+</div> 
+<h4 align="center"> Пример </h4>
+<div style="background: #e6e6d8; border-left: 3px solid #010101;">
+<p> &lt;p&gt; Сохраните документ, нажав &lt;kbd&gt; Ctrl+S &lt;/kbd&gt; &lt;/p&gt;</p>
+</div>
+<h4 align="center"> Результат </h4>
+<div style="background: #f34f26; border-left: 3px solid #010101;">
+<p>Сохраните документ, нажав <kbd>Ctrl+S </kbd>.</p>
+</div>
+<hr>
+<h2 align="center"> Тег &lt;var&gt; </h2>
+   <p> Тег Тег &lt;var&gt; (сокращение от "variable" - переменные) используется для обозначения некоторых переменных:
+  </p>
+    <ol>
+  <li> переменная в задаче, математическом выражении или в контексте программирования </li>
+    <li> идентификатор, константа или символ физической величины </li>
+    <li> параметр функции </li>
+  </ol>
+    <p> Как правило, содержимое данного тега отображается в курсивном начертании, хотя это поведение может 
+      зависеть от браузера. </p>
+  <p> Мы можем использовать тег &lt;var&gt; для выделения переменных в различных формулах. Однако, для 
+    более сложных математических выражений лучше использовать специализированный язык разметки MathML.
+  </p>
+  <h4 align="center"> Пример </h4>
+  <div style="background: #e6e6d8; border-left: 3px solid #010101;">
+  <p>
+    &lt;p&gt; Учитель взял мел и написал на доске формулу &lt;var&gt; E &lt;/var&gt; = &lt;var&gt; m &lt;/var&gt; 
+    &lt;var&gt; c &lt;/var&gt; &lt; sup &gt; 2 &lt; /sup &gt; &lt;/p&gt;
+  </p>
+</div>
+  <h4 align="center"> Результат </h4>
+  <div style="background: #f34f26; border-left: 3px solid #010101;">
+  <p>
+    Учитель взял мел и написал на доске формулу <var>E</var> = <var>m</var> <var>c</var> <sup>2</sup>
+  </p>
+</div>
+  <hr> 
+  <h2 align="center"> Теги &lt;sub&gt; и &lt;sup&gt;, нижний и верхний индексы</h2>
+  <p> 
+    Тег &lt;sub&gt; определяет подстрочный текст. Подстрочный текст имеет высоту в два раза меньше и появляется 
+    под базовой линией. Подстрочный текст может использоваться при написании химических формул, 
+    например H<sub>2</sub>O.
+  </p>
+    <p> Тег &lt;sup&gt; определяет надстрочный текст. Надстрочный текст имеет высоту в два раза меньше 
+      и появляется над базовой линией. Надстрочный текст может использоваться при написании сносок, 
+      например WWW <sup> [1] </sup>.
+      </p>
+      <p> 
+        Эти теги чаще используются для выделения отдельных символов, а не слов. 
+        Их используют для указания единиц измерения или написания простых формул. 
+      </p>
+      <h4 align="center"> Пример </h4>
+      <div style="background: #e6e6d8; border-left: 3px solid #010101;"> 
+      <p> &lt;p&gt; 20м &lt;sup&gt; 2 &lt;/sup&gt; &lt;br&gt; <br>
+        H &lt;sub&gt; 2 &lt;/sub&gt; O &lt;br&gt; <br>
+        X&lt;sup&gt;3&lt;/sup&gt;+X&lt;sup&gt;2&lt;/sup&gt;=1
+        </p>
+      </div>
+        <h4 align="center"> Результат </h4>
+        <div style="background: #f34f26; border-left: 3px solid #010101;">
+      <p> 20м<sup>2</sup> <br>
+      H<sub>2</sub>O <br>
+      X<sup>3</sup>+X<sup>2</sup>=1
+      </p>
+    </div>
+    <hr>
+    <h2 align="center"> Теги &lt;sub&gt; и &lt;sup&gt;, нижний и верхний индексы</h2>
+</body>
 </html>
