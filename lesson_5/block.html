@@ -16,24 +16,25 @@
      color: blue;
      text-align: center; 
      font-weight: bold; 
+     margin: 0;
+     padding: 0;
         }
 
 .container{
-     margin: auto auto;
+    margin: auto auto;
      text-align: center;
      width: 100%;
            }
 
 .menu{
-    background: #F0E68C;
-     float: left;
+    float: left;
      width: 20%;
          }
 
 .content{
+    background:white;
     width: 80%;
-     float: right;
-       background-image: url('ball.png');
+    background-image: url('ball.png');
     background-position: right;
     background-repeat: repeat-y;
          }
@@ -46,28 +47,27 @@
     color: blue;
     text-align: center; 
     font-weight: bold; 
+    margin: 0;
+     padding: 0;
 }
 
 a{
   color: blue;
  }
 
- .clear{
-     clear: both;
- }
-
 </style>
 <body>
 
 <div class="container">
+
 	<div class="header">
 	<h2>ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ &#33; </h2>
 	</div>
 
 
-<div class="wrap"> 
-
-
+<div class="wrap" style="background: #F0E68C;
+text-align: center;
+width: 100%;"> 
 
 <div class="menu">
     <h4 style="text-align: left;"> Виды спорта&#58; </h4>
@@ -109,8 +109,8 @@ a{
 
 <div class="content">
     <p style="text-align: center; 
-    font-weight: bold; 
-     text-transform: uppercase;"> Футбол </p>
+              font-weight: bold; 
+              text-transform: uppercase;"> Футбол </p>
     <img src="football.jpeg" alt="victory"; style="float: left; padding: 10px;">
     <p> Футбол — самый популярный командный вид спорта в мире, целью в котором является забить мяч в ворота соперника 
     большее число раз, чем это сделает команда соперника в установленное время. 
@@ -129,19 +129,18 @@ a{
     Мяч в ворота можно забивать ногами или любыми другими частями тела (кроме рук).
     Футбол — самый популярный командный вид спорта в мире, целью в котором является забить мяч в ворота соперника 
     большее число раз, чем это сделает команда соперника в установленное время. 
-    Мяч в ворота можно забивать ногами или любыми другими частями тела (кроме рук).</p>  
+    Мяч в ворота можно забивать ногами или любыми другими частями тела (кроме рук).</p> 
+    <div style="clear: both;"> </div> 
 </div>
-
-
 </div>  
-
-
-<div class="clear"> </div>
 
 <div class="footer">
     <h4>Главное не победа, а участие</h4>
     </div>
 
+
+
+    
 </div>
     
 </body>
