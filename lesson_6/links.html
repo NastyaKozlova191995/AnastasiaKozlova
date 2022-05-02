@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Links</title>
 </head>
+<style> 
+     div{
+         margin:10px;
+         padding:10px;
+        }     
+
+       a{
+           color: green;
+           padding: 10px;
+           font-size: 20px;
+       }
+       a:hover{
+          color:  red;
+       }
+
+       .first a {
+          background-image: url('img/links.png');
+           background-repeat: no-repeat;
+                 }
+        .first [href*="channel"]{
+            background-image: none;
+                }
+
+        .second a{
+            border-right: 3px solid red;
+            padding: 7px;
+                 }
+        .second a:last-child{
+                border-right: none;
+        }
+
+        .third td:nth-child(-n+4){
+            border-right: 3px solid red;
+
+                   }
+
+        .fourth li{
+           display: inline;
+                 }
+        .fourth li:nth-child(n+2)::before{
+            content:'|';
+            font-size: 40px;
+            font-weight: bold;
+            color: red;
+                   }
+
+        .fifth a:nth-child(-n+4)::after{
+            content:'|';
+            font-size: 40px;
+            font-weight: bold;
+            color: red;
+            margin-left: 15px;
+        }     
+        .sixth img{
+            background-repeat: no-repeat;
+            padding-right: 15px;
+           }
+        .seventh span{
+            font-size: 40px;
+            font-weight: bold;
+            color: red;
+            margin-left: 15px;
+        }
+        
+        
+  
+</style>
 <body>
     <div class="first"> 
         <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'>первая ссылка</a>
@@ -14,17 +81,80 @@
         <a href='https://harry-potter-film.ru/'>четвёртая ссылка</a>
         <a href='https://harry-potter-film.ru/'>пятая ссылка</a>
     </div>
-
+<hr>
     <div class="second">
+        <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'>первая ссылка</a>
+        <a href='https://www.netflix.com/by-ru/title/80189685'>вторая ссылка</a>
+        <a href='https://www.hbo.com/game-of-thrones'>третья ссылка</a>
+        <a href='https://harry-potter-film.ru/'>четвёртая ссылка</a>
+        <a href='https://harry-potter-film.ru/'>пятая ссылка</a>
          </div>
-
+<hr>
     <div class="third">
+        <table>
+        <tbody>
+        <tr> 
+            <td> 
+                <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'>первая ссылка</a> 
+             </td>
+            <td> 
+                <a href='https://www.netflix.com/by-ru/title/80189685'>вторая ссылка</a>
+            </td>
+            <td> <a href='https://www.hbo.com/game-of-thrones'>третья ссылка</a>
+            </td>
+            <td> 
+                <a href='https://harry-potter-film.ru/'>четвёртая ссылка</a>
+            </td>
+            <td> 
+                <a href='https://harry-potter-film.ru/'>пятая ссылка</a>
+            </td>
+        </tr>  
+        </tbody>      
+        </table>
          </div>
-
+<hr>
     <div class="fourth">
+        <ul>
+            <li>  
+                <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'>первая ссылка</a> 
+            </li>
+            <li> <a href='https://www.netflix.com/by-ru/title/80189685'>вторая ссылка</a>
+         </li>
+            <li><a href='https://www.hbo.com/game-of-thrones'>третья ссылка</a> </li>
+            <li> <a href='https://harry-potter-film.ru/'>четвёртая ссылка</a> </li>
+            <li> <a href='https://harry-potter-film.ru/'>пятая ссылка</a> </li>
+        </ul>
          </div>
-         
+<hr>
     <div class="fifth">
+        <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'>первая ссылка</a>
+        <a href='https://www.netflix.com/by-ru/title/80189685'>вторая ссылка</a>
+        <a href='https://www.hbo.com/game-of-thrones'>третья ссылка</a>
+        <a href='https://harry-potter-film.ru/'>четвёртая ссылка</a>
+        <a href='https://harry-potter-film.ru/'>пятая ссылка</a>
          </div>
+ <hr>
+ <hr>
+    <div class="sixth">
+        <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'> первая ссылка</a>
+        <a href='https://www.netflix.com/by-ru/title/80189685'> 
+            <img src="img/links.png" alt="links" height="35px" >вторая ссылка</a>
+        <a href='https://www.hbo.com/game-of-thrones'>
+            <img src="img/links.png" alt="links" height="35px" >третья ссылка</a>
+        <a href='https://harry-potter-film.ru/'>
+            <img src="img/links.png" alt="links" height="35px" >четвёртая ссылка</a>
+        <a href='https://harry-potter-film.ru/'> <img src="img/links.png" alt="links" height="35px" >пятая ссылка</a>
+        </div>
+<hr>
+    <div class="seventh">
+            <a href='https://www.youtube.com/channel/UCWaCaCyWgPk6uwKh66fl_0A'>первая ссылка 
+                <span>|</span></a>
+            <a href='https://www.netflix.com/by-ru/title/80189685'>вторая ссылка
+                <span>|</span></a>
+            <a href='https://www.hbo.com/game-of-thrones'>третья ссылка <span>|</span></a>
+            <a href='https://harry-potter-film.ru/'>четвёртая ссылка <span>|</span></a>
+            <a href='https://harry-potter-film.ru/'> пятая ссылка </a>
+             </div>
+<hr>
 </body>
 </html>
