@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   .header, .footer{
+       text-align: center;
+       background-color:  #ADD8E6;
+       padding: 20px;
+       text-transform: uppercase;
+       color: blue;
+              }
+   .content{
+       margin-left: 21%;
+       background-color: white;
+       padding-left: 20px;
+
+   }
+   .menu{
+       width: 20%;
+       float: left;
+       padding: 20px;
+   }
+   .wrap{
+       background: url('img/fon.gif');
+   }
+   a{
+       color: blue;
+   }
