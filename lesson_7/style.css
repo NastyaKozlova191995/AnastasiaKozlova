@@ -21,9 +21,31 @@
        float: left;
        padding: 20px;
    }
+   .menu h4{
+    text-align: left;
+   }
+   .ball{
+    background: url('ball.png'); 
+    background-position: right; 
+    background-repeat: repeat-y; 
+   }
+   .content h4{
+    text-align: center; 
+     text-transform: uppercase; font-size: 20px; 
+     padding-bottom: 15px;
+     padding-top: 15px;  
+   }
+   .content img{
+    float:left; 
+    padding-right:15px; 
+    padding-bottom:10px;
+   }
    .wrap{
-       background: url('img/fon.gif');
+       background: url('fon.gif');
    }
    a{
        color: blue;
+   }
+   .clearfix{
+    clear: both;
    }
