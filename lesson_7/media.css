@@ -1,0 +1,59 @@
+@media all and (max-width: 1200px) {
+    .header, .footer {
+        background-color:yellow;
+    }
+  .ball{
+      background-position: top;
+      background-repeat: repeat-x;
+  }
+  .content img{
+      float:left;
+  }
+}
+@media all and (max-width: 560px) {
+    .content img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .header, .footer{
+        background-color: dodgerblue;
+        color: yellow;
+    }
+    .menu{
+        float: none;
+        width: auto;
+        height: auto;
+    }
+    .menu ul li{
+        text-align: center;
+        list-style-type: none;
+    }
+    .menu h4{
+        text-align: center;
+    }
+    .clearfix{
+        clear: none;
+    }
+   .content{
+       margin-left: auto;
+   }
+  
+}
+@media all and (max-width: 320px){
+    .header, .footer{
+        background-color: rgb(197, 239, 239);
+        color: coral;
+    }
+    .header h1{
+        font-size: 16px;
+    }
+    .footer h2{
+        font-size: 16px;
+    }
+    .menu{
+        display: none;
+    }
+}
