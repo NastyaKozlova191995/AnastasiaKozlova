@@ -1,0 +1,10 @@
+@media print {
+    .information a::before{
+        content: 'ссылка';
+        color: blue;
+        font-weight: bold;
+    }
+    .information a[href^="https://"]::after{
+        content:'на ' attr(href);
+    }
+    }

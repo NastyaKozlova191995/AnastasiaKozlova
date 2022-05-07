@@ -1,0 +1,30 @@
+p {
+    font-style: italic;
+    color: blue;
+    font-size: 20px;
+}
+.name{
+font-weight: bold;
+font-size: 30px; 
+font-style: normal;
+color: black; 
+}
+.dates{
+color: green; 
+font-style: normal;
+}
+.champion{
+color: red;
+font-weight: bold; 
+font-style: normal;
+}
+.information a{
+color: blue; 
+font-style: normal;
+font-weight: bold;
+}
+.links{
+color: blue; 
+font-style: normal;
+font-weight: bold;
+}
