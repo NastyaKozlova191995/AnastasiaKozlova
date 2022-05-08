@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #AAA{
+            width: 85%;
+        }
+        #AAA{
+            margin-right: 50px;
+        }
+    </style>
 </head>
 <body>
-    
+  <p> Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+    <form method="get" action="https://fe.it-academy.by/TestForm.php">
+    <label for="AAA">Название статьи:</label>
+    <input id="AAA" type="text" name="article"><br>
+    <label for="BBB" 
+    style="padding-right: 106px;">Рубрика:</label>
+    <select name="animalkind">
+        <option value="1">Программирование</option>
+        <option value="5">Frontend</option>
+        <option value="8">Backend</option>
+        <option value="9"> UX UI design</option>
+    </select><br>
+<label for="ССС" 
+style="padding-right: 106px;">Публикация:</label>
+<input type="radio" name="answer" value="1">на сайте
+<input type="radio" name="answer" value="2" checked>в журнале
+<input type="radio" name="answer" value="3"> на сайте и в журнале <br>
+<label for="DDD" 
+style="padding-right: 106px;">Разрешить комментарии:</label>
+<input id="DDD" type="text" name="article"><br>
+Текст статьи:<br>
+    <textarea name="mytext"></textarea><br>
+    <input type="submit" value="Опубликовать">
+    </form>
 </body>
 </html>
