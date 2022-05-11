@@ -1,0 +1,37 @@
+.name{
+    width: 200px;
+    float: left;
+}
+
+.article{
+    margin-left: 201px;
+    margin-right: 10px;
+}
+
+#a{
+ width: 100%;
+}
+
+.IT{
+ margin-left: 201px;
+}
+
+.publ {
+ margin-left: 201px; 
+}
+.publ div{
+    float: left;
+   }
+.checkbox{
+    margin-left: 201px; 
+    display: block;
+}
+textarea{
+    width: 99%;
+    height: 50px;
+           }
+.clearfix{
+    clear:both;
+}
+
+

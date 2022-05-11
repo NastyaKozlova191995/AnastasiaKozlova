@@ -1,0 +1,29 @@
+@media all and (max-width: 560px){
+   .name{
+       float: none;
+         } 
+   .article {
+       margin-left: auto;
+   }
+   .IT{
+    margin-left: auto;
+   } 
+   .publ{
+    margin-left: auto;
+   } 
+   .publ div{
+       float: none;
+   }
+   .checkbox{
+    display:inline;
+    margin-left: 5px; 
+    margin-bottom: auto;
+    
+   }
+   select{
+       width: 99%;
+   }
+   .clearfix{
+       clear: none;
+   }
+}
