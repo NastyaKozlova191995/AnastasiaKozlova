@@ -1,0 +1,35 @@
+@media all and (max-width: 735px){
+    .window{
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            background-color: blueviolet;
+            position: fixed;
+            right: 10px;
+            top: 86px;
+         }
+    }
+    @media all and (max-width: 716px){
+        .window{
+                width: 100px;
+                height: 50px;
+                text-align: center;
+                background-color: blueviolet;
+                position: fixed;
+                right: 10px;
+                top: 85px;
+             }
+        }
+    @media all and (max-width: 450px){
+        .window{
+                width: 100px;
+                height: 50px;
+                text-align: center;
+                background-color: blueviolet;
+                position: fixed;
+                right: 10px;
+                top: 86px;
+             }
+        }
+ 
+

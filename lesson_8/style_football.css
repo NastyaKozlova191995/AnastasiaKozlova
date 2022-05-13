@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   .header, .footer{
+       text-align: center;
+       background-color:  #ADD8E6;
+       padding: 20px;
+       text-transform: uppercase;
+       color: blue;
+              }
+   .content{
+       margin-left: 21%;
+       background-color: white;
+       padding-left: 20px;
+
+   }
+   .menu{
+       width: 20%;
+       float: left;
+       padding: 20px;
+   }
+   .menu h4{
+    text-align: left;
+   }
+   .ball{
+    background: url('img/ball.png'); 
+    background-position: right; 
+    background-repeat: repeat-y; 
+   }
+   .content h4{
+    text-align: center; 
+     text-transform: uppercase; font-size: 20px; 
+     padding-bottom: 15px;
+     padding-top: 15px;  
+   }
+   .content img{
+    float:left; 
+    padding-right:15px; 
+    padding-bottom:10px;
+   }
+   .wrap{
+       background: url('img/fon.gif');
+   }
+   a{
+       color: blue;
+   }
+   .clearfix{
+    clear: both;
+   }
+   .window{
+       width: 100px;
+       height: 50px;
+       text-align: center;
+       background-color: blueviolet;
+       position: fixed;
+       right: 10px;
+       top: 50px;
+    }

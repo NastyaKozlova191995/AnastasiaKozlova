@@ -4,41 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_football.css">
+    <link rel="stylesheet" href="media_football.css">
     <title>Document</title>
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-       .header, .footer{
-           text-align: center;
-           background-color:  #ADD8E6;
-           padding: 20px;
-           text-transform: uppercase;
-           color: blue;
-                  }
-       .content{
-           margin-left: 21%;
-           background-color: white;
-           padding-left: 20px;
-
-       }
-       .menu{
-           width: 20%;
-           float: left;
-           padding: 20px;
-       }
-       .wrap{
-           background: url('img/fon.gif');
-       }
-       a{
-           color: blue;
-       }
-      
-</style>
 <body>
+    <div class="window"> 
+        <a href="http://ru.sport-wiki.org/vidy-sporta/konkobezhnyy-sport/" 
+                    title="Ссылка 1">Вступить в клуб</a>
+    </div>
 
       <div class="header"> <h1>  Привет участникам соревнований&#33; </h1> </div>
 
@@ -46,7 +20,7 @@
 <div class="wrap">
 
 
-      <div class="menu"> <h4 style="text-align: left;"> Виды спорта&#58; </h4>
+      <div class="menu"> <h4> Виды спорта&#58; </h4>
         <ul> 
             <li><a href="http://ru.sport-wiki.org/vidy-sporta/konkobezhnyy-sport/" 
                 title="Ссылка 1">конькобежный спорт</a></li>
@@ -83,16 +57,9 @@
             </ul> </div>
 
       <div class="content">
-      <div style="background: url('img/ball.png'); 
-                  background-position: right; 
-                  background-repeat: repeat-y;">
-
-      <h4 style="text-align: center; 
-      text-transform: uppercase; font-size: 20px; 
-      padding-bottom: 15px;
-      padding-top: 15px;"> футбол</h4> 
-          <img src="img/football.jpeg" width="280px" height="180px" style="float:left; 
-          padding-right:15px; padding-bottom:10px;"> 
+      <div class="ball">
+      <h4> футбол</h4> 
+          <img src="img/football.jpeg" width="280px" height="180px"> 
     <p> Футбол (от англ. foot — "нога", ball — "мяч") — это командный вид спорта, в который играют 
         две команды по 11 игроков. Обе стороны стремятся попасть мячом в ворота соперника на 
         противоположном конце прямоугольного поля. Цель игры — забить больше голов, чем соперник. 
@@ -103,7 +70,7 @@
         Если на счету обеих сторон их одинаковое количество, объявляется ничья или игра 
         переходит 
         в дополнительное время или серию пенальти в зависимости от формата соревнования.</p>
-       <p style="padding-top: 20px;"> Футбол (от англ. foot — "нога", ball — "мяч") — это командный вид спорта, в который играют 
+       <p> Футбол (от англ. foot — "нога", ball — "мяч") — это командный вид спорта, в который играют 
         две команды по 11 игроков. Обе стороны стремятся попасть мячом в ворота соперника на 
         противоположном конце прямоугольного поля. Цель игры — забить больше голов, чем соперник.
         Футболистам не разрешается касаться мяча руками, пока он находится в игре, за исключением 
@@ -113,7 +80,7 @@
         Если на счету обеих сторон их одинаковое количество, объявляется ничья или игра 
         переходит в дополнительное время или серию пенальти в зависимости от формата соревнования.</p>
         
-        <div style="clear: both;"></div>
+        <div class="clearfix"></div>
         </div>
 
     </div> 
