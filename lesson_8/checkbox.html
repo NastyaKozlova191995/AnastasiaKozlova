@@ -6,13 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHECKBOX</title>
     <style>
-        
+        input[type='checkbox']{
+            display: none;
+        }
+        label{
+            position: relative;
+        }
+        label::before{
+            content:'';
+            width: 20px;
+            height: 20px;
+            background:url('img_check/on_off.png') no-repeat center center;
+            position: absolute;
+
+        }
+        input:checked + label::before{
+            content:'';
+            width: 20px;
+            height: 20px;
+            background:url('img_check/on_off.png') no-repeat;
+
+        }
     </style>
 </head>
 <body>
     <form method="get" action="https://fe.it-academy.by/TestForm.php">
-    <label for="check"> Выбрать </label>
-    <input type="checkbox" name="test" id="check"><br>
+    <input type="checkbox" name="test" id="check">
+    <label for="check"> </label><br>
+    <input type="submit" value="Поиск">
         <hr>
     Проголосуйте:<br>
     <input type="radio" name="answer" value="1">да<br>
