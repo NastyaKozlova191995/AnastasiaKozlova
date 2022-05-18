@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN</title>
+    <style>
+        .pan{
+            width: 600px;
+            height: 600px;
+            position: relative;
+        }
+        .pan > div{
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: .5s;
+        }
+
+        .tefal1{
+            background: url('img/pan1.png') no-repeat center;
+        }
+
+        .tefal2{
+            background: url('img/pan2.png') no-repeat center;
+                   }
+
+        .tefal3{
+            background: url('img/pan3.png') no-repeat center;
+        }
+        .pan:hover .tefal2{
+            top: 195px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pan"> 
+        <div class="tefal1"> </div>
+        <div class="tefal2"> </div>
+        <div class="tefal3"> </div>
+    </div>
+</body>
+</html>
