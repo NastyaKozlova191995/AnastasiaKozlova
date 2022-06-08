@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1420px;
+    margin: 0 auto;
+}
+.header{
+    background: #0f3d19;
+    padding-bottom: 161px;
+}
+.header .container{
+    padding-top: 0.1px;
+}
+.logo{
+font-family: 'Julius Sans One', sans-serif;
+font-weight: 400;
+line-height: 26px;
+color: white;
+border: 1px solid white;
+margin-top: 40px;
+width: 133px;
+height: 81px;
+padding-top: 14px;
+padding-bottom: 15px;
+text-align: center;
+margin-left: 100px;
+margin-right: 150px;
+float: left;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header ul{
+    float: right;
+    margin-top: 48px;
+    margin-right: 100px;
+    
+}
+
+.header ul li{
+        margin-left: 38px;
+        float: left;
+        margin-top: 16px;}
+
+
+        
