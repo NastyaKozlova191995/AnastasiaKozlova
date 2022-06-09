@@ -5,12 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST_ANIM</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            min-height: 100vh;
+            width: 100%;
+          background-image: url("img/sky.jpg");
+           background-size: cover;
+           position: relative;
+           overflow-x: hidden;
+        }
+       
+        @keyframes highway{
+            100%{
+        transform: translateX(-3400px);
+    }
+        }
+     .line{
+    height: 70px;
+    width: 500%;
+    display: block;
+    background-image: url("img/road.jpg");
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: highway 5s linear infinite;
+       }
+       
+       @keyframes MyAnimation2{
+    from { background: url('img/uKH0t.png') 0 0; }
+    to { background: url('img/uKH0t.png') -1557px 0; } 
+      }
+     .zombie{
+    width: 260px;
+    height: 360px;
+    position: absolute;
+    bottom: 70px;
+    animation: MyAnimation2 2s steps(5) infinite;
+     }
+     
+     @keyframes bass{
+    100%{
+        transform: translate(-500px);
+    }
+    }
+
+     .bass{
+    height: 295px;
+    width: 100%;
+    background-image: url("img/car.png");
+    position: absolute;
+    left: 70%;
+    right:0 ;
+    bottom: 68px;
+    display: block;
+    z-index: 1;
+    background-repeat: no-repeat;
+    
+}
+
+    .moon > img{
+             width: 300px;
+             height: 300px;
+             position: absolute;
+             right: 50%;
+             transition: transform 0.5s;
+       }
+      
+    
+       .container:hover .moon{
+        transform: scale(1.2);
+    }
+    .container:hover .bass{
+        animation: bass 5s  infinite;
+    }
+
+    </style>
 </head>
 <body>
-    <div>
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="container">
+        <div class="line"></div>
+        <div class="zombie"></div>
+        <div class="bass"></div>
+        <div class="moon" > <img src="img/moon.png" alt="moon"></div>
     </div>
 </body>
 </html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   .header, .footer{
+       text-align: center;
+       background-color:  #ADD8E6;
+       padding: 20px;
+       text-transform: uppercase;
+       color: blue;
+              }
+   
+    .container{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+   .content{
+       background-color: white;
+       padding-left: 20px;
+       background: url('img/ball.png'); 
+       background-position: right; 
+       background-repeat: repeat-y; 
+   }
+   .content h4{
+    text-align: center; 
+     text-transform: uppercase; font-size: 20px; 
+     padding-bottom: 15px;
+     padding-top: 15px;  
+   }
+   .content img{
+       padding-right:15px; 
+       padding-bottom:10px;
+   }
+
+   .menu{
+       vertical-align: top;
+       display: flex;
+       flex-basis: 300px;
+       padding: 20px;
+       background-color: #f4e68c;
+   }
+
+   a{
+       color: blue;
+   }
+
