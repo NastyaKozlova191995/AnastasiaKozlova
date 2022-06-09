@@ -1,0 +1,41 @@
+@media all and (max-width: 560px) {
+
+    .header, .footer{
+  display: none;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(0, auto);
+    }
+      
+       .content{
+           grid-column-start: 1;
+           grid-column-end: 3;
+           grid-row-start: 1;
+        background: none;
+        padding: 10px;
+        
+    
+    }
+    
+        .menu{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            background: none;
+            
+        }
+        .menu ul li{
+            display: inline;
+            list-style-type: none;
+        }
+        .menu h4{
+            text-align: center;
+        }
+
+
+
+
+    }
