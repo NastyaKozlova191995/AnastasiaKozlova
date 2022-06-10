@@ -9,9 +9,15 @@ body{
 }
 
 .container{
-    width: 1420px;
+    width: 1200px;
     margin: 0 auto;
 }
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .header{
     background: #0f3d19;
     padding-bottom: 161px;
@@ -32,9 +38,10 @@ padding-top: 14px;
 padding-bottom: 15px;
 text-align: center;
 margin-left: 100px;
-margin-right: 150px;
 float: left;
+
 }
+
 a{
     color: white;
     text-decoration: none;
@@ -45,14 +52,98 @@ li{
 .header ul{
     float: right;
     margin-top: 48px;
-    margin-right: 100px;
+    margin-right: -120px;
     
 }
-
+.image.container img{
+    width: 1200px;
+    height: 800px;
+}
 .header ul li{
         margin-left: 38px;
         float: left;
         margin-top: 16px;}
+
+
+       .footer{
+            background: #0f3d19;
+            padding-top: 30px;
+            padding-bottom: 108px;
+            color: #fff;
+            height: 300px;
+        }
+        .footer p.title{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+             line-height: 42px;
+             color: #FFFCFC;
+            margin-bottom: 24px;
+        }
+        .contacts{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 19px;
+            color: #FFFCFC;
+            margin-bottom: 24px;
+        }
+        .help{
+            float: left;
+            margin-right: 125px;
+            margin-left: 70px;
+        }
+        .help li:first-child{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 19px;
+            color: #FFFCFC;
+            margin-bottom: 24px;
+        }
+        .help li{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #C9C7C7;
+            margin-bottom: 15px;
+        }
+        
+        .support{
+            float: left;
+            margin-right: 125px;
+        }
+        .support p.title + p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 233%;
+            color: #C9C7C7;
+            margin-bottom: 3px;
+        }
+        .footer__social li{
+            float: left;
+            margin-right: 14px;
+            margin-bottom: 73px;
+        }
+        .email{
+            float: left;
+            margin-right: 125px;
+        }
+        .email > a{
+            margin-top: 18px;
+        }
+        .social__network{
+            float: left;
+            margin-right: -130px;
+            
+        }
+        .social__network ul{
+            margin-top: 18px;
+        }
+        .social__network ul li{
+            float: left;
+            margin-right: 18px;
+        }
+
 
 
         
