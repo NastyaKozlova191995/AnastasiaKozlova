@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var lastname = prompt("Введите вашу фамилию");
+        var firstname = prompt("Ввеите ваше имя");
+        var patronymic = prompt("Введите ваше отчество");
+        var ageStr = prompt("Введите ваш возраст в годах");
+        var man = confirm("Ващ пол - мужской?");
+        var age = parseInt(ageStr);
+        var ageDays = age * 365;
+        var ageSyers = age + 5;
+        var gender = man == true ? "Мужской?" : "Женский?";
+        var pension =
+          (man == true && age > 62) || (man == false && age > 57)  ? "да" : "нет";
+        var sucsses =
+         "Ваше ФИО: " +
+           lastname +
+           " " +
+           firstname +
+           " " +
+           patronymic +
+           "\n " +
+         "Ваш возраст в годах: " +
+           ageStr +
+           "\n" +
+         "Ваш возраст в днях: " +
+           ageDays +
+           "\n" +
+         "Через 5 лет вам будет: " +
+           ageSyers +
+           "\n" +
+         "Вы на пенсии: " +
+           pension
+          var result =
+           !lastname || !firstname || !patronymic || isNan(age)
+              ? "Необходимо ввести корректные данные"
+              : sucsses;
+           alert(result);     
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
