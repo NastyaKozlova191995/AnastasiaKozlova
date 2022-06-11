@@ -64,6 +64,104 @@ li{
         float: left;
         margin-top: 16px;}
 
+.container_img1{
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-top: 50px;
+    position: relative;
+    height: 500px;
+   
+}
+.container_img1 > h4{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+margin-bottom: 40px;
+}
+.container_img1 > .img_name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-bottom: 40px;
+}
+.container_img1 > p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.container_img1 > img{
+    position: absolute;
+    bottom:67px;
+    right: -242px;
+}
+.container_img2{
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-top: 50px;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+   }
+   .container_img2 > img{
+    position: absolute;
+    bottom:67px;
+    right: 607px;
+}
+.container_img2 > .img_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+    padding-left: 700px;
+    
+}
+.container_img2 > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left:700px;
+}
+.products{
+    position: relative;
+    height: 450px; 
+    width: 1200px;
+
+}
+.products_foto > img :first-child{
+position: absolute;
+margin-right: 1000px;
+}
+.products_foto > img:nth-child(2){
+    position: absolute;
+     padding-left: 600px;}
+.products_foto > img:last-child{
+    position: absolute;
+    padding-left: 100px;  
+}
+.products > h4{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+margin-bottom: 20px;
+}
+
+
 
        .footer{
             background: #0f3d19;
