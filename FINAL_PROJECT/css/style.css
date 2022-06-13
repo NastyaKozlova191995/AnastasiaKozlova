@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    width: 1400px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.d-block{
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   }
+
+   
+.carousel-control-prev-icon{
+    width: 36px;
+        height: 36px;
+        border-radius:50%;
+        background-color: 
+#F5ECE3;
+    background-image:url('img/page1/Vector\ \(6\).png')
+}
+.carousel-caption{
+width: 386px;
+        height: 58px;
+margin-bottom: 22.5rem;
+border-bottom:1px white;
+}
+
+    i{
+        color: #AC8F78;
+        
+        margin: 10.8px;;
+    }
+    .cercle{
+        width: 36px;
+        height: 36px;
+        border-radius:50%;
+        background-color: 
+#F5ECE3;
+    }
+    .fa-brands{
+        background-color: none;
+    }
+
+
