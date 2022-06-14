@@ -1,0 +1,98 @@
+//colors
+$pink: #E5E5E5;
+$nude: #EEE4DA;
+$fonts: #555555;
+$fonicon: #AC8F78;
+$wite: #FFFFFF;
+
+
+
+//font size
+$fz13: 13px;
+$fz14: 14px;
+$fz16: 16px;
+$fz18: 18px;
+$fz20: 20px;
+$fz24: 24px;
+$fz32: 32px;
+$fz48: 48px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nea{
+    font-family: 'Cera Pro';
+    color: $fonts;
+    font-weight: bold;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    max-width: 1400px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.d-block{
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   }
+
+   .carousel-indicators button {
+    margin-bottom: 110px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    
+   } 
+.carousel-control-prev-icon{
+    width: 36px;
+        height: 36px;
+        border-radius:50%;
+        background-color: 
+#F5ECE3;
+    background-image:url('img/page1/Vector\ \(6\).png')
+}
+.carousel-caption{
+width: 386px;
+        height: 58px;
+margin-bottom: 22.5rem;
+border-bottom:1px white;
+}
+
+    i{
+        color: #AC8F78;
+        
+        margin: 10.8px;;
+    }
+    .cercle{
+        width: 36px;
+        height: 36px;
+        border-radius:50%;
+        background-color: 
+#F5ECE3;
+    }
+    .fa-brands{
+        background-color: none;
+    }
