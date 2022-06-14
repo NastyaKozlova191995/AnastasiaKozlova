@@ -31,7 +31,7 @@ body{
 
 
 .container{
-    width: 1440px;
+    max-width: 1236px;
     margin: 0 auto;
 }
 
@@ -51,12 +51,9 @@ li{
     
 
     .container{
-        
         display: flex;
         justify-content: space-between;
-        
-
-
+      
     ul{
         display: flex;
         margin-top: 51px;
@@ -76,7 +73,7 @@ li{
     img{
         width: 180px;
         height: 16px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
             } 
         }
