@@ -1,5 +1,5 @@
 //colors
-$pink: #E5E5E5;
+$pink: #f5ece3;
 $nude: #EEE4DA;
 $fonts: #555555;
 $fonicon: #AC8F78;
@@ -18,28 +18,6 @@ $fz32: 32px;
 $fz48: 48px;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.nea{
-    font-family: 'Cera Pro';
-    color: $fonts;
-    font-weight: bold;
-}
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -47,52 +25,108 @@ $fz48: 48px;
 }
 
 
-.header{
-    display: flex;
-    max-width: 1400px;
-    height: 900px;
+body{
+    font-family: 'Cera Pro';
+}
+
+
+.container{
+    width: 1440px;
     margin: 0 auto;
 }
 
-.d-block{
-   border-top-left-radius: 50px;
-   border-top-right-radius: 50px;
-   }
 
-   .carousel-indicators button {
-    margin-bottom: 110px;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
+li{
+    list-style-type: none;
+}
+ a{
+    text-decoration: none;
+ }
+
+//header
+.header{
+   
+    background-color: $pink;
+    height: 900px;
     
-   } 
-.carousel-control-prev-icon{
-    width: 36px;
-        height: 36px;
-        border-radius:50%;
-        background-color: 
-#F5ECE3;
-    background-image:url('img/page1/Vector\ \(6\).png')
+
+    .container{
+        
+        display: flex;
+        justify-content: space-between;
+        
+
+
+    ul{
+        display: flex;
+        margin-top: 51px;
+        margin-left: 70px;
+
+    li{
+        margin-right: 47px;
+    
+    a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: $wite;
+    }
+
+    img{
+        width: 180px;
+        height: 16px;
+        margin-left: 200px;
+    }
+            } 
+        }
+     .auth{
+        display: flex;
+        margin-top: 51px;
+        margin-right: 70px;
+
+        p{
+        font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 120%;
+         color: white;
+         padding-right: 48px;
+        }
+        
+        img{
+            width: 14px;
+            height: 14px;
+            margin-left: 25px;
+        }
+     }
+    }
 }
-.carousel-caption{
-width: 386px;
-        height: 58px;
-margin-bottom: 22.5rem;
-border-bottom:1px white;
+.scroll{
+    .container{
+        display: flex;
+     }
+     .d-block{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        }
+        .carousel-indicators button {
+            margin-bottom: 210px;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            
+           } 
+         }
+    
+//content produks
+.content_produks{
+    display: flex;
+    height: 1490px;
+    
+    .container{
+        background-color: $pink;
+    }
 }
 
-    i{
-        color: #AC8F78;
-        
-        margin: 10.8px;;
-    }
-    .cercle{
-        width: 36px;
-        height: 36px;
-        border-radius:50%;
-        background-color: 
-#F5ECE3;
-    }
-    .fa-brands{
-        background-color: none;
-    }
+
