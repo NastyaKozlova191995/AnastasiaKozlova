@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;}
+
+.header{
+display: flex;
+}
+.header > div{
+    height: 120px;
+    flex-basis: 300px;
+}
+.header > div:nth-child(1){
+background-color:blanchedalmond;
+}
+.header > div:nth-child(2){
+    background-color: rgb(191, 183, 199);
+}
+.header > div:nth-child(3){
+    background-color: rgb(226, 207, 207);
+}
+.header > div:nth-child(4){
+    background-color: antiquewhite;
+}
+
+.start p { 
+    font-size: 20px;
+    text-indent: 25px;
+}
+h2{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.block1 p{
+    font-size: 20px;
+    text-indent: 25px;
+}
