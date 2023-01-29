@@ -266,6 +266,10 @@ body {
     color: #fff;
 }
 
+.block_8 button {
+     margin-left: 435px;
+}
+
 .block_5 {
     margin-top: 30px;
     border: 1px solid #000;
@@ -332,7 +336,7 @@ body {
     text-align: center;
     margin-left: 10px;
     margin-right: 10p;
-    color: rgb(208, 112, 2);
+    color: #fff;
 }
 
 .sp_5 li {
@@ -437,6 +441,25 @@ button a {
     color: #fff;
 }
 
+.block_6-4 {
+    color: #fff;
+    width: 1200px;
+    height: 440px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background: rgb(88, 88, 88);
+}
+
+.qrcode p {
+   text-align: center;
+   margin-top: 15px;
+}
+
 .block_7 {
     font-size: 30px;
     color:  rgb(208, 112, 2);
@@ -476,7 +499,6 @@ button a {
 }
 
 .naydenko img {
-    margin-left: 400px;
     border: 1px solid #000;
 }
 
